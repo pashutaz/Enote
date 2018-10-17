@@ -1,0 +1,55 @@
+.container {
+    text-align: center;
+    width: 40%;
+    margin: 5% auto auto;
+}
+
+html {
+    background: url(../images/background.jpg) no-repeat center fixed;
+    -webkit-bacground-size: cover;
+    -moz-bacground-size: cover;
+    -o-bacground-size: cover;
+    background-size: cover;
+}
+
+body {
+    color: #ffffff;
+    background: none;
+}
+
+#signUpForm {
+    display: none;
+}
+
+.toggleForms {
+    font-weight: bold;
+}
+
+#hidden {
+    display: none;
+}
+
+#diary {
+    width: 90%;
+    height: 100%;
+    margin: 5px auto 5px;
+    font-size: xx-large;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: right;
+    width: 100%;
+    /*background: #5cb85c;*/
+}
+
+.deleteNoteButton {
+    /*visibility: hidden;*/
+    display: none;
+}
+/*#error {*/
+/*color: red;*/
+/*font-weight: bolder;*/
+/*}*/
